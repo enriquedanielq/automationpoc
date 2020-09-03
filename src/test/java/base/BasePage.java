@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+public abstract class BasePage {
 	private static final int TIMEOUT = 30;
     private static final int POLLING = 1000;
 
@@ -27,5 +27,6 @@ public class BasePage {
                 };
         wait.until(pageLoadCondition);
     }
+    
 
 }

@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class utilities {
+public class Utilities {
 	
 	public static Map<Integer, Float> orderValues(List<String> searchResultsList) {
 				

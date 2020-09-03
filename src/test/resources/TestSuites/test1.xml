@@ -2,6 +2,8 @@
 
 <suite name = "suite1">
    <test name = "test1">
+   	  <parameter name = "textToSearch" value ="phone case carbon fiber" />
+   	  <parameter name = "filterToSelect" value ="Carbon Fiber" />
       <classes>
          <class name = "testScripts.Test1" />
       </classes>
