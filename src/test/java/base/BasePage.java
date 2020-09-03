@@ -18,7 +18,7 @@ public class BasePage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT), Duration.ofMillis(POLLING));
     }
     
-    protected void waitForPageLoaded() {
+    public void waitForPageLoaded() {
     	ExpectedCondition<Boolean> pageLoadCondition = new
                 ExpectedCondition<Boolean>() {
                     public Boolean apply(WebDriver driver) {

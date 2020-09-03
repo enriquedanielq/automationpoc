@@ -18,8 +18,10 @@ public class HomePage extends BasePage {
 		driver.findElement(txtboxSearchBar).sendKeys(text);
 	}
 	
-	public void clickSearchButton() {
+	public SearchResults clickSearchButton() {
 		driver.findElement(btnSubmit).click();
+		SearchResults amazonResultsPage = new SearchResults(driver);
+		return amazonResultsPage;
 	}
 	
 
